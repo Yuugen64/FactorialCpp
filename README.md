@@ -72,7 +72,7 @@ No prerequisites.
 4.1.21
 - Learned about loops.
 - Created repo.
-- Added core cpp file.
+- [001-0.0.1]:: INITIAL COMMIT >> Updated readme, added core cpp file.
 
 
 ### Main Branch:
