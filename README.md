@@ -73,6 +73,7 @@ No prerequisites.
 - Learned about loops.
 - Created repo.
 - [001-0.0.1]:: INITIAL COMMIT >> Updated readme, added core cpp file.
+- [002-0.0.2]:: Code Addition >> Added the simple algorithm and basic output. The loop works as expected.
 
 
 ### Main Branch:
