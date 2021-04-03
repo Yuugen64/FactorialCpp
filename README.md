@@ -75,6 +75,12 @@ No prerequisites.
 - [001-0.0.1]:: INITIAL COMMIT >> Updated readme, added core cpp file.
 - [002-0.0.2]:: Code Addition >> Added the simple algorithm and basic output. The loop works as expected.
 
+4.2.21
+- Practiced scoping.
+- Familiarized myself with having multiple functions.
+- Re-iterated the concept of the 'void' declaration (for functions in this case).
+- [003-0.0.3]:: Code Addition >> Added the feature to check if the number was a palindrome.
+
 
 ### Main Branch:
 - Where the core project is located.
