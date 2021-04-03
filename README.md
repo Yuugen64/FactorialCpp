@@ -80,6 +80,7 @@ No prerequisites.
 - Familiarized myself with having multiple functions.
 - Re-iterated the concept of the 'void' declaration (for functions in this case).
 - [003-0.0.3]:: Code Addition >> Added the feature to check if the number was a palindrome.
+- [004-0.0.4]:: Formatting >> Tweaked the formatting now that the logic works the way I expect it to.
 
 
 ### Main Branch:
