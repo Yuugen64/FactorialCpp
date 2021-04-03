@@ -11,6 +11,9 @@ void testPalindrome(int a)
 
     myNumHolder = a;
 
+    cout << endl;
+    cout << "===== ===== ===== ===== =====" << endl;
+
     cout << "The number to test for palindrome: " << a << endl;
 
     while( a > 0 )
@@ -19,10 +22,6 @@ void testPalindrome(int a)
         a = a / 10;
         reverseNum = (reverseNum * 10) + remainder;
     }
-
-    cout << "The remainder is: " << remainder << endl;
-    cout << "The reverseNum is: " << reverseNum << endl;
-
     if (reverseNum == myNumHolder)
     {
         cout << "The number entered (" << myNumHolder << ") is a palindrome. " << endl;
@@ -31,6 +30,9 @@ void testPalindrome(int a)
     {
         cout << "The number entered (" << myNumHolder << ") is NOT a palindrome. " << endl;
     }
+
+    cout << "===== ===== ===== ===== =====" << endl;
+    
 }
 
 int main()
@@ -60,7 +62,8 @@ int main()
     int n = 0;
     int myFactorial = 1;
 
-	cout<<"Please enter the number that you want the factorial (Less than 25) for: " << endl;
+	cout << "Please enter the number that you want the factorial (Less than 25) for: " << endl;
+    cout << " --> ";
     cin>>n;
 
     //DYNAMICALLY Declare AND Initialize the counter for the loop inside the loop.
@@ -74,7 +77,10 @@ int main()
     testPalindrome(n);
 
     //Hold the window open.
+    cout << endl << endl << endl;
+    cout << "===== ===== ===== ===== =====" << endl;
     cout << "Type any number and press ENTER to exit." << endl;
+    cout << "===== ===== ===== ===== =====" << endl;
     cin >> n;
 
     //Exit code
