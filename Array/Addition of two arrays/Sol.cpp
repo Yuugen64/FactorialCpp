@@ -3,7 +3,7 @@ using namespace std;
 
 int main ()
 {
-    int A[100] , i , n , B[100] , C[100];
+int A[100] , i , n , B[100] , C[100];
 cout<<"Enter size of A and B";
 cin>>n;
 cout<<"Enter elements of A";
