@@ -5,7 +5,7 @@ class Binary
 {
 private: int  A[100] , mid , UB , LB , i, n , se , loc= -1;
 public :  void INP();
-         void SORT();
+         void SEARCH();
          void DISP();
 };
 
@@ -20,7 +20,7 @@ void Binary ::INP ()
     cin>>se;
 }
 
-void Binary :: SORT()
+void Binary :: SEARCH()
 {   
     
     UB=n-1;
@@ -63,7 +63,7 @@ int main()
 {
     Binary B;
     B.INP();
-    B.SORT();
+    B.SEARCH();
     B.DISP();
     return 0;
 }
